@@ -1,9 +1,13 @@
 import streamlit as st
 from model import generate_content
+import os
+from dotenv import load_dotenv
+
+# Load environment variables
+load_dotenv()
 
 st.title("AI Content Generator - Milestone 1")
 
-# Add content type selector
 content_type = st.selectbox(
     "Select content type:",
     ["LinkedIn Post", "Ad Copy", "Professional Email", "Conversational Text"]

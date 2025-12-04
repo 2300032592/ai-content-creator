@@ -1,6 +1,8 @@
 from groq import Groq
+import os
 
-client = Groq(api_key="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")
+# Use environment variable instead of hardcoding
+client = Groq(api_key=os.getenv("GROQ_API_KEY"))
 
 SYSTEM_PROMPTS = {
     "LinkedIn Post": "Generate a professional LinkedIn post that is engaging and industry-relevant.",
