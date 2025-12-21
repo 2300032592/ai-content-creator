@@ -24,7 +24,7 @@ streamlit run app.py
 
 ## Project Status
 - **Milestone 1** (Weeks 1-2): Model Exploration & UI - COMPLETED
-- **Milestone 2** (Weeks 3-4): Advanced Integration - IN PROGRESS
+- **Milestone 2** (Weeks 3-4): Advanced Integration - COMPLETED
 
 ## Author
 Akanksha Loshetty (2300032592)
